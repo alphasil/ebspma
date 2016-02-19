@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:summary="Username and password information"
+        android:title="Informações de Login">
+        <EditTextPreference
+            android:key="username"
+            android:summary="Introduzir username"
+            android:title="Username" />
+        <EditTextPreference
+            android:key="password"
+            android:summary="Introduzir password"
+            android:title="Password" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:summary="sessao"
+        android:title="Definições">
+        <Preference
+            android:key="@string/myCoolButton"
+            android:summary="Mude aqui"
+            android:title="Mudar a password na BD" />
+        <CheckBoxPreference
+            android:key="checkBox"
+            android:summary="On/Off"
+            android:title="Manter Sessão" />s
+    </PreferenceCategory>
+</PreferenceScreen>
